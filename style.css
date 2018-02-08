@@ -1,0 +1,27 @@
+#box {
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    border: 3px solid black;
+}
+body:not(div) {
+    background-color: lightsteelblue;
+}
+h1 {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 60px auto;
+    font-size: 20px;
+}
+#mainBtn {
+  color: rgb(214, 154, 154);
+  background-color: rgb(11, 50, 167);
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+  border-radius: 5%;
+  font-size: 30px;
+}

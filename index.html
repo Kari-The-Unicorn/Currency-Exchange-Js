@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <h1>Currency Exchange</h1>
+        <table>
+            <tr>
+                <td>
+                    <input id="from_input" type="text" size="15" value="1">
+                </td>
+
+                <td>
+                    <select id="from">
+                        <option value="AUD" selected>Australian Dollar(AUD)</option>
+                        <option value="RUB">Russian Ruble(RUB)</option>
+                        <option value="USD">American Dollar(USD)</option>
+                        <option value="EUR">Euro(EUR)</option>
+                        <option value="GBP">Pound Sterling (GB)</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input id="to_input" type="text" size="15" value = "Your result" disabled>
+                </td>
+
+                <td>
+                    <select id="to">
+                        <option value="AUD" selected>Australian Dollar(AUD)</option>
+                        <option value="RUB">Russian Ruble(RUB)</option>
+                        <option value="USD">American Dollar(USD)</option>
+                        <option value="EUR">Euro(EUR)</option>
+                        <option value="GBP">Pound Sterling (GB)</option>
+                    </select>
+                </td>
+                
+            </tr>
+        </table>
+        <button id="mainBtn">Check amount</button>
+    </div>
+    <script src="jquery-3.1.1.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
