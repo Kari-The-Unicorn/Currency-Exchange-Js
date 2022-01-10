@@ -87,7 +87,7 @@
 //waiting 100s for response
 		setTimeout(function() {	
 //result
-			result = (input1 * data)/data2;
+			result = (Math.round(input1 * data)/data2).toFixed(2);
 //display result
 			displayResult(result);
 		}, 100);
